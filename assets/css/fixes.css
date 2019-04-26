@@ -1,0 +1,119 @@
+ins.adsbygoogle { margin-top: 2rem; margin-bottom: 2rem; }
+
+.category>article { overflow: hidden; }
+article.x-is-home>p {display: table-cell; padding-top: 1em;}
+
+nav.pagination {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+}
+
+.pf-rating { margin-top: 6em; }
+
+.pagination > a.prev {
+ float:left;
+}
+
+.pagination > a.next {
+  float:right;
+}
+
+
+.post__share>a { margin: 0 1.5rem 0 0; }
+
+.post__entry>p.title--excerpt {
+  font-size: 150%;
+  font-family: "Trebuchet MS",sans-serif;
+  color: #888;
+  line-height: 120%;
+  margin-bottom: 2rem;
+}
+
+.logo { white-space: nowrap; }
+
+img.archive {
+  float: left;
+  margin: 1em 1em 0 0;
+  max-width: 50%;
+}
+
+.category>article { overflow: hidden; }
+article.x-is-home>p {display: table-cell; padding-top: 1em;}
+
+
+.u-readmore { float:right; }
+.u-readmore::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.overflowXauto {
+  overflow-x: auto;
+}
+
+@media screen and (max-width: 432px) {
+	img.archive {
+      	min-width: 100%;
+  }
+}
+
+#xBreadcrumb {list-style:none;margin:0;padding:0;font-size:.8em}
+#xBreadcrumb li {display: inline;padding: 0}
+#xBreadcrumb li:after {content:'\203A';padding:0 .5em}
+#xBreadcrumb li:last-child:after {content: ''}
+
+ol#xBreadcrumb:before {
+  content: '\21B3';
+  padding-right: 0.5em;
+  /* font-weight: bold; */
+}
+
+article .hero {
+  margin-bottom: 1.2rem;
+}
+
+.post__published {
+  color: #969fa8;
+  font-size: 0.77248rem;
+  font-style: italic;
+}
+
+.post__tag > li {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+footer.footer ul {
+  margin: 0;
+  list-style: none;
+  color: #969fa8;
+}
+
+footer.footer ul li {
+  padding: 0;
+  display: inline-block;
+}
+
+footer.footer ul li:after {
+  content: '|';
+  padding: 0 0.5rem;
+}
+
+footer.footer ul li:last-child:after {
+  display: none;
+}
+
+.footer__copyright.text p {
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.footer__copyright.text p a {
+  color: #61666c;
+  font-weight: bold;
+}
+
+.footer__social {
+  padding-bottom: 0.8rem;
+}

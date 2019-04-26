@@ -1,0 +1,16 @@
+/* 
+ * Add your own CSS code for the WYSIWYG editor 
+ */
+
+p.title--excerpt {
+  font-size: 150%;
+  font-family: "Trebuchet MS",sans-serif;
+  color: #888;
+  line-height: 120%;
+  margin-bottom: 2rem;
+}
+
+p.spoiler {
+    transition: filter 250ms ease 0s;
+    filter: blur(1px);
+}
