@@ -31,6 +31,9 @@ nav.pagination {
 }
 
 .logo { white-space: nowrap; }
+@media all and (max-width: 56.1875em) {
+  .logo { position: absolute }
+}
 
 img.archive {
   float: left;

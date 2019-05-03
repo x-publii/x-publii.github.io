@@ -1,5 +1,5 @@
-/* 
- * Add your own CSS code for the WYSIWYG editor 
+/*
+ * Add your own CSS code for the WYSIWYG editor
  */
 
 p.title--excerpt {
@@ -13,4 +13,12 @@ p.title--excerpt {
 p.spoiler {
     transition: filter 250ms ease 0s;
     filter: blur(1px);
+}
+
+blockquote {
+	text-align: left;
+}
+
+body#tinymce {
+	max-width: 43rem;
 }
